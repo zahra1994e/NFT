@@ -208,10 +208,11 @@ a {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow: hidden;
 }
 body {
   background-color: var(--bg-color) !important;
-  overflow-x: hidden;
+  /* overflow-x: hidden !important; */
 }
 .container {
   font-family: var(--primary-font-regular);
@@ -777,6 +778,3 @@ body {
     bottom: 4rem;
   }
 }
-
-/* on barg khafan ro yeki kon 
-/* دریافت مشاوره رایگان گرد شه
