@@ -208,11 +208,12 @@ a {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow: hidden;
+  /* overflow-x: hidden; */
 }
 body {
   background-color: var(--bg-color) !important;
-  /* overflow-x: hidden !important; */
+  overflow-y: auto;
+  overflow-x: hidden !important;
 }
 .container {
   font-family: var(--primary-font-regular);
