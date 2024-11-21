@@ -212,8 +212,8 @@ a {
 }
 body {
   background-color: var(--bg-color) !important;
-  overflow-y: auto;
-  overflow-x: hidden !important;
+  /* overflow-y: auto; */
+  /* overflow-x: hidden !important; */
 }
 .container {
   font-family: var(--primary-font-regular);
@@ -647,8 +647,20 @@ body {
 ======================================================================================================
 */
 @media screen and (max-width: 992px) {
+  .body {
+    overflow-x: hidden !important;
+  }
   .navbar-collapse {
     background-color: #303030 !important;
+  }
+  .navbar-brand::before {
+    display: none !important;
+  }
+  .hot-bids::before{
+    display: none !important;
+  }
+  .trends::before{
+    display: none !important;
   }
 }
 @media screen and (min-width: 992px) {
